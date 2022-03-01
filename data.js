@@ -14,6 +14,11 @@ const data = [{
   "lastName": "Name",
   "dob": "01-01-1973"
 },{
+  "id": "c",
+  "firstName": "Test",
+  "lastName": "Name",
+  "dob": "01-01-1973"
+},{
   "id": "d",
   "firstName": "Test",
   "lastName": "Name",
