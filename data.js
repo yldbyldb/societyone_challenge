@@ -54,9 +54,10 @@ const getAgeArray = ( today, array ) => {
 
 //Function: get the median age
 const getMedianAge = (array) => {
-  const newArray = [...array].sort()
+  const newArray = [...array].sort()//for not changing the original array
   if(newArray.length % 2 === 0) {
-    return (newArray[newArray.length/2]+newArray[newArray.length/2-1])/2 //if the length is even, then use the average of middle two numbers
+    return (newArray[newArray.length/2]+newArray[newArray.length/2 - 1])/2 //if the length is even, then use the average of middle two numbers
+    // return newArray[newArray.length/2 - 1] //or the first middle one
   }else{
     return newArray[parseInt(newArray.length/2)];//if odd, then use the middle one
   }
